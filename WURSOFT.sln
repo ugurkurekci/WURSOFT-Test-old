@@ -70,6 +70,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{C57CAE3A-E362-4F34-9EC0-30A8AAAB0814}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "wursoftadmin", "src\Admin\WurSoftAdmin\wursoftadmin.esproj", "{10E1E506-9805-4225-80AD-12F53FB9CE2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -172,6 +176,12 @@ Global
 		{F43C6EEE-4D41-4C4E-B835-E8EFE175189D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F43C6EEE-4D41-4C4E-B835-E8EFE175189D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F43C6EEE-4D41-4C4E-B835-E8EFE175189D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +217,8 @@ Global
 		{F52240E1-B16A-46D8-9163-6B72F2E478D3} = {9B405C50-A0B0-4724-9DB4-19F19BDDA2B7}
 		{745E2D00-B047-496B-8CE5-BCCFDA67E209} = {9B405C50-A0B0-4724-9DB4-19F19BDDA2B7}
 		{F43C6EEE-4D41-4C4E-B835-E8EFE175189D} = {9B405C50-A0B0-4724-9DB4-19F19BDDA2B7}
+		{C57CAE3A-E362-4F34-9EC0-30A8AAAB0814} = {2B48D4DB-4EEB-403B-A86A-9EF70E25EA49}
+		{10E1E506-9805-4225-80AD-12F53FB9CE2E} = {C57CAE3A-E362-4F34-9EC0-30A8AAAB0814}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8AC83E58-1BF0-4788-BB3C-0ECB79AE4FCE}
